@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: "Inter", serif;
+}
+
+#nav-container{
+    margin: 0 400px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu ul{
+    display: flex;
+}
+
+.nav-menu ul li{
+    padding: 20px;
+    list-style: none;
+    font-size: 30px;
+    font-weight: 400;
+    color: #666;
+    text-align: center;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.hamburger-menu {
+    font-size: 50px;
+    color: #666;
+    cursor: pointer;
+}
